@@ -1,0 +1,25 @@
+.toggle-switch {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.toggle-switch button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 5px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.toggle-switch button.active {
+    background-color: #007bff;
+    font-weight: bold;
+}
+
+.toggle-switch button:hover {
+    background-color: #0056b3;
+}

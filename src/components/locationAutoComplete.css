@@ -1,0 +1,38 @@
+.location-autocomplete-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.location-autocomplete-input {
+    width: 300px;
+    height: 35px;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.location-autocomplete-input:focus {
+    border-color: #007bff;
+}
+
+.location-autocomplete-button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    font-size: 18px;
+    width: 120px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.location-autocomplete-button:hover {
+    background-color: #0056b3;
+}
