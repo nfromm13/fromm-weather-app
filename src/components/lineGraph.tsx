@@ -34,7 +34,7 @@ interface TemperatureChartProps {
 const TemperatureChart: React.FC<TemperatureChartProps> = ({ isWeekly, dailyWeather, fiveDayWeather }) => {
     const formatTime = (time: string) => {
         const date = new Date(time);
-        return `${date.getHours()}:00`; // Returns the hour in 'HH:00' format
+        return `${date.getHours()}:00`;
     };
 
     const data = isWeekly ? {
